@@ -15,7 +15,7 @@ export default function Footer() {
 
             <nav className="flex items-center gap-8 order-1 sm:order-2">
               <a
-                href="mailto:hello@yapaylar.com"
+                href="mailto:info@yapaylar.com"
                 className="text-[13px] font-medium text-neutral-500 hover:text-neutral-900 transition-colors"
               >
                 İletişim
