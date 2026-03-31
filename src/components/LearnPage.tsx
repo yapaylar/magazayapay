@@ -106,10 +106,9 @@ function CourseCard({ course }: { course: Course }) {
             Ücretsiz
           </span>
         </div>
-        <h3 className="font-semibold text-[17px] text-neutral-900 leading-snug line-clamp-2 mb-1 group-hover:text-accent-600 transition-colors duration-150">
+        <h3 className="font-semibold text-[17px] text-neutral-900 leading-snug line-clamp-2 mb-4 group-hover:text-accent-600 transition-colors duration-150">
           {course.title}
         </h3>
-        <p className="text-[13px] text-neutral-500 mb-3">{course.instructor}</p>
         <div className="flex items-center gap-3 text-[13px] text-neutral-400 mb-3">
           <span className="flex items-center gap-1">
             <Clock className="w-3.5 h-3.5" />
