@@ -29,7 +29,7 @@
   },
   {
     "id": "prompt-engineering",
-    "title": "Prompt Mühendisliği Masterclass",
+    "title": "Giriş Seviye Prompting Teknikleri",
     "description": "AI'dan en iyi sonucu almak için prompt yazma sanatını öğrenin",
     "instructor": "Zeynep Kaya",
     "duration": "3 saat 15 dk",
@@ -38,7 +38,7 @@
     "featured": true,
     "publishedAt": "2026-02-08",
     "lessons": [
-      { "id": 1, "title": "Prompt Tanımı ve LLM", "duration": "00:00", "completed": false, "vimeoId": "918110534", "unit": "1. Ünite" },
+      { "id": 1, "title": "Prompt Tanımı ve LLM", "duration": "00:00", "completed": false, "vimeoId": "992913626", "unit": "1. Ünite" },
       { "id": 2, "title": "İyi Bir Prompt Nasıl Olur", "duration": "00:00", "completed": false, "vimeoId": "918113404", "unit": "1. Ünite" },
       { "id": 3, "title": "LLM İçerikleri ve Sınırları", "duration": "00:00", "completed": false, "vimeoId": "922739953", "unit": "1. Ünite" },
       { "id": 4, "title": "LLM Öğrenme Süreci", "duration": "00:00", "completed": false, "vimeoId": "922752434", "unit": "1. Ünite" },
@@ -100,7 +100,7 @@
   },
   {
     "id": "ai-for-everyone",
-    "title": "Herkes İçin Yapay Zeka",
+    "title": "Yapay Zekaya Giriş",
     "description": "Yapay zeka kavramlarına, kullanım alanlarına ve sık kullanılan modellere kapsamlı bir giriş yapın.",
     "instructor": "Yapaylar Akademi",
     "duration": "5 saat 30 dk",
@@ -109,7 +109,7 @@
     "featured": true,
     "publishedAt": "2026-03-31",
     "lessons": [
-      { "id": 0, "title": "Eğitim Önizlemesi", "duration": "00:00", "completed": false, "vimeoId": "939709393", "unit": "Önizleme" },
+      { "id": 0, "title": "Eğitim Önizlemesi", "duration": "00:00", "completed": false, "vimeoId": "992937415", "unit": "Önizleme" },
       { "id": 1, "title": "Giriş", "duration": "00:00", "completed": false, "vimeoId": "938573915", "unit": "1. Ünite" },
       { "id": 2, "title": "Yapay Zekanın Tarihi", "duration": "00:00", "completed": false, "vimeoId": "938578292", "unit": "1. Ünite" },
       { "id": 3, "title": "Makine Öğrenmesi (ML)", "duration": "00:00", "completed": false, "vimeoId": "938578275", "unit": "1. Ünite" },
