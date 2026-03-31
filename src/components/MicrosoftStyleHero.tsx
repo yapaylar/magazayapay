@@ -36,51 +36,55 @@ export default function MicrosoftStyleHero() {
           </a>
 
           {/* Right Top: Bültene kaydol */}
-          <div
-            className="group col-span-2 lg:col-span-2 relative rounded-3xl overflow-hidden bg-gradient-to-br from-amber-300 to-yellow-400 p-6 flex flex-col justify-between min-h-[140px] lg:min-h-0 cursor-default"
+          <a
+            href="/"
+            className="group col-span-2 lg:col-span-2 relative rounded-3xl overflow-hidden bg-gradient-to-br from-amber-300 to-yellow-400 p-6 flex flex-col justify-between min-h-[140px] lg:min-h-0 hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
           >
             <div className="min-h-0 min-w-0">
               <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-black/10 text-neutral-900 text-[10px] font-extrabold tracking-wider mb-2 w-fit">
                 <Mail className="w-3 h-3" />
-                YAKINDA
+                BÜLTEN
               </div>
               <h3 className="text-xl font-extrabold text-neutral-900 leading-tight mb-1">
                 Bültene Kaydol
               </h3>
               <p className="text-xs text-neutral-800 font-medium opacity-90">
-                AI haberleri ve yeni ipuçları çok yakında e-postanızda olacak.
+                AI haberleri, yeni araçlar ve ipuçları anında e-postanızda.
               </p>
             </div>
 
             <div className="flex-shrink-0 mt-4 lg:mt-2">
-              <span className="inline-flex items-center gap-1.5 text-neutral-900 text-[12px] font-bold opacity-50">
-                Hazırlanıyor...
+              <span className="inline-flex items-center gap-1.5 text-neutral-900 text-[12px] font-bold group-hover:gap-2.5 transition-all">
+                Üye Ol
+                <ArrowRight className="w-3.5 h-3.5" />
               </span>
             </div>
 
             <div className="absolute -bottom-3 -right-3 w-28 h-28 rounded-full bg-white/30 blur-2xl pointer-events-none" />
-          </div>
+          </a>
 
           {/* Right Bottom Left: Blog */}
-          <div
-            className="group col-span-1 relative rounded-3xl overflow-hidden bg-gradient-to-br from-rose-400 to-red-500 p-5 flex flex-col justify-between min-h-[140px] lg:min-h-0 cursor-default"
+          <a
+            href="/"
+            className="group col-span-1 relative rounded-3xl overflow-hidden bg-gradient-to-br from-rose-400 to-red-500 p-5 flex flex-col justify-between min-h-[140px] lg:min-h-0 hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
           >
             <div className="min-w-0">
               <div className="w-10 h-10 rounded-xl bg-white/20 flex items-center justify-center mb-2 shadow-inner">
                 <BookOpen className="w-5 h-5 text-white" />
               </div>
               <h3 className="text-base font-extrabold text-white truncate">Rehberler</h3>
-              <p className="text-[11px] font-medium text-white/90 truncate">Çok Yakında</p>
+              <p className="text-[11px] font-medium text-white/90 truncate">Yazılar & İpuçları</p>
             </div>
 
             <div className="flex-shrink-0 mt-4 lg:mt-2">
-              <span className="inline-flex items-center gap-1.5 text-white text-[12px] font-bold opacity-50">
-                Beklemede
+              <span className="inline-flex items-center gap-1.5 text-white text-[12px] font-bold group-hover:gap-2.5 transition-all">
+                Oku
+                <ArrowRight className="w-3 h-3" />
               </span>
             </div>
 
             <div className="absolute -bottom-3 -right-3 w-20 h-20 rounded-full bg-white/20 blur-2xl pointer-events-none" />
-          </div>
+          </a>
 
           {/* Right Bottom Right: İletişim */}
           <a
