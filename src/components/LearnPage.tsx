@@ -27,7 +27,7 @@ function FeaturedCard({ course }: { course: Course }) {
       <div className="h-36 bg-neutral-100 flex items-center justify-center border-b border-neutral-100 relative overflow-hidden pointer-events-none">
         {previewVimeoId ? (
            <iframe 
-             src={`https://player.vimeo.com/video/${previewVimeoId}?background=1&autoplay=1&loop=1&byline=0&title=0&muted=1`} 
+             src={`https://player.vimeo.com/video/${previewVimeoId}?loop=1&byline=0&title=0&muted=1`} 
              className="absolute top-1/2 left-1/2 w-[150%] h-[150%] -translate-x-1/2 -translate-y-1/2"
              frameBorder="0" 
              allow="autoplay; fullscreen; picture-in-picture"
@@ -81,7 +81,7 @@ function CourseCard({ course }: { course: Course }) {
       <div className="aspect-video w-full bg-neutral-100 border-b border-neutral-100 flex items-center justify-center relative overflow-hidden pointer-events-none">
         {previewVimeoId ? (
            <iframe 
-             src={`https://player.vimeo.com/video/${previewVimeoId}?background=1&autoplay=1&loop=1&byline=0&title=0&muted=1`} 
+             src={`https://player.vimeo.com/video/${previewVimeoId}?loop=1&byline=0&title=0&muted=1`} 
              className="absolute top-1/2 left-1/2 w-[150%] h-[150%] -translate-x-1/2 -translate-y-1/2"
              frameBorder="0" 
              allow="autoplay; fullscreen; picture-in-picture"

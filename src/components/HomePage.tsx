@@ -546,7 +546,7 @@ export default function HomePage() {
                     <div className="w-full aspect-video rounded-xl bg-neutral-100 flex items-center justify-center mb-5 overflow-hidden relative border border-neutral-100 pointer-events-none">
                        {previewVimeoId ? (
                          <iframe 
-                           src={`https://player.vimeo.com/video/${previewVimeoId}?background=1&autoplay=1&loop=1&byline=0&title=0&muted=1`} 
+                           src={`https://player.vimeo.com/video/${previewVimeoId}?loop=1&byline=0&title=0&muted=1`} 
                            className="absolute top-1/2 left-1/2 w-[150%] h-[150%] -translate-x-1/2 -translate-y-1/2"
                            frameBorder="0" 
                            allow="autoplay; fullscreen; picture-in-picture"
