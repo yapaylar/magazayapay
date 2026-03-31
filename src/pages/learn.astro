@@ -1,0 +1,12 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header';
+import LearnPage from '../components/LearnPage';
+import Footer from '../components/Footer';
+---
+
+<Layout title="Yapaylar - Eğitimler">
+  <Header client:load />
+  <LearnPage client:load />
+  <Footer client:load />
+</Layout>

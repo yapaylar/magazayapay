@@ -1,0 +1,37 @@
+20:45:19 [content] Syncing content
+20:45:19 [content] Synced content
+20:45:19 [types] Generated 26ms
+20:45:19 [check] Getting diagnostics for Astro files in /Users/berkerelbistan/magazayapay...
+[96msrc/components/DualModeHero.tsx[0m:[93m93[0m:[93m49[0m - [91merror[0m[90m ts(2339): [0mProperty 'featured' does not exist on type 'Course'.
+
+[7m93[0m   const featuredCourses = courses.filter(c => c.featured).slice(0, 5);
+[7m  [0m [91m                                                ~~~~~~~~[0m
+
+[96msrc/components/ExplorePage.tsx[0m:[93m2[0m:[93m45[0m - [93mwarning[0m[90m ts(6133): [0m'DollarSign' is declared but its value is never read.
+
+[7m2[0m import { Search, Tag, TrendingUp, Sparkles, DollarSign } from 'lucide-react';
+[7m [0m [93m                                            ~~~~~~~~~~[0m
+
+[96msrc/components/HomePage.tsx[0m:[93m273[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'sectionId' is declared but its value is never read.
+
+[7m273[0m     sectionId
+[7m   [0m [93m    ~~~~~~~~~[0m
+[96msrc/components/HomePage.tsx[0m:[93m2[0m:[93m65[0m - [93mwarning[0m[90m ts(6133): [0m'Mic' is declared but its value is never read.
+
+[7m2[0m import { BookOpen, ArrowRight, Star, ChevronRight, Play, Clock, Mic } from 'lucide-react';
+[7m [0m [93m                                                                ~~~[0m
+[96msrc/components/HomePage.tsx[0m:[93m2[0m:[93m20[0m - [93mwarning[0m[90m ts(6133): [0m'ArrowRight' is declared but its value is never read.
+
+[7m2[0m import { BookOpen, ArrowRight, Star, ChevronRight, Play, Clock, Mic } from 'lucide-react';
+[7m [0m [93m                   ~~~~~~~~~~[0m
+
+[96msrc/components/MicrosoftStyleHero.tsx[0m:[93m1[0m:[93m28[0m - [93mwarning[0m[90m ts(6133): [0m'Heart' is declared but its value is never read.
+
+[7m1[0m import { ArrowRight, Mail, Heart, BookOpen } from 'lucide-react';
+[7m [0m [93m                           ~~~~~[0m
+
+Result (15 files): 
+- 1 error
+- 0 warnings
+- 5 hints
+

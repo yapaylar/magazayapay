@@ -1,0 +1,14 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header';
+import MicrosoftStyleHero from '../components/MicrosoftStyleHero';
+import HomePage from '../components/HomePage';
+import Footer from '../components/Footer';
+---
+
+<Layout title="Yapaylar - Yapay Zeka Ekosistemi">
+  <Header client:load />
+  <MicrosoftStyleHero client:load />
+  <HomePage client:load />
+  <Footer client:load />
+</Layout>
