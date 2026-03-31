@@ -28,7 +28,7 @@ function FeaturedCard({ course }: { course: Course }) {
         {previewVimeoId ? (
            <iframe 
              src={`https://player.vimeo.com/video/${previewVimeoId}?loop=1&byline=0&title=0&muted=1`} 
-             className="absolute top-1/2 left-1/2 w-[150%] h-[150%] -translate-x-1/2 -translate-y-1/2"
+             className="w-full h-full absolute inset-0"
              frameBorder="0" 
              allow="autoplay; fullscreen; picture-in-picture"
            />
@@ -82,7 +82,7 @@ function CourseCard({ course }: { course: Course }) {
         {previewVimeoId ? (
            <iframe 
              src={`https://player.vimeo.com/video/${previewVimeoId}?loop=1&byline=0&title=0&muted=1`} 
-             className="absolute top-1/2 left-1/2 w-[150%] h-[150%] -translate-x-1/2 -translate-y-1/2"
+             className="w-full h-full absolute inset-0"
              frameBorder="0" 
              allow="autoplay; fullscreen; picture-in-picture"
            />
